@@ -44,4 +44,7 @@ for i in range(1, len(name)):
 
 # SLicing and Dicing
 
-print(name[0:3])
+print(name[-4:8])
+
+for i in range(0, len(name)+1):
+    print(name[0:i])
