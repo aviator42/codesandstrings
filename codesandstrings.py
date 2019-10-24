@@ -38,3 +38,10 @@ print(middleCharIndex)
 print(name[middleCharIndex])
 
 print(name[-3])
+
+for i in range(1, len(name)):
+    print(name[i])
+
+# SLicing and Dicing
+
+print(name[0:3])
